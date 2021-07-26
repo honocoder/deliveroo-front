@@ -1,1 +1,136 @@
-/* Other rules */
+/*---------- HEADER ----------*/
+.header {
+  height: 80px;
+  border-bottom: 1px solid lightgray;
+  border-width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header img {
+  height: 70px;
+  width: 150px;
+  padding-left: 50px;
+}
+
+/*---------- RESTAURANT ----------*/
+
+.restaurant {
+  display: flex;
+}
+
+.restaurant-info {
+  width: 795px;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.restaurant img {
+  width: 350px;
+  height: 200px;
+  padding-right: 120px;
+  padding-left: 35px;
+  padding-top: 30px;
+}
+
+.restaurant-info h1 {
+  font-family: sans-serif;
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+.restaurant-info p {
+  font-family: sans-serif;
+  font-size: 19px;
+  color: #868a8a;
+  line-height: 28px;
+}
+
+.categories {
+  background-color: #f2f5f5;
+  padding: 20px;
+}
+
+/*---------- CATEGORIES & MEAL ----------*/
+.category-name {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+.meal-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 935px;
+  /* justify-content: space-between; */
+}
+
+.meal-card {
+  width: 400px;
+  height: 160px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.all-text {
+  padding-left: 15px;
+}
+
+.texts {
+  flex: 1 1;
+  margin-right: 15px;
+}
+
+.texts h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.meal-desc {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.meal-desc p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #808484;
+}
+
+.infos {
+  display: flex;
+  align-self: flex-end;
+  align-content: flex-start;
+}
+
+.infos span {
+  font-size: 17px;
+  line-height: 14px;
+  color: #808484;
+}
+.meal-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  align-self: flex-end;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
